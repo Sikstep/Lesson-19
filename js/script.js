@@ -33,6 +33,5 @@ personalMovieDB.movies.answerRatingFilm1 = userRatingFilm1;
 personalMovieDB.movies.answerFilm2 = nameLastFilmWatching2;
 personalMovieDB.movies.answerRatingFilm2 = userRatingFilm2;
 
-console.log(personalMovieDB.movies)
+console.log(personalMovieDB.movies);
 
-console.log('whole answer =', movies);
