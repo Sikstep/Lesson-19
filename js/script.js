@@ -2,7 +2,7 @@
 // 1st part
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-console.log('answer =', numberOfFilms);
+
 
 // 2nd part
 
@@ -28,9 +28,10 @@ const userRatingFilm2 = +prompt('На сколько оцените его?', ''
 //     answerFilm2: nameLastFilmWatching2,
 //     answerRatingfilm2: userRatingFilm2
 // };
-personalMovieDB.movies.nameLastFilmWatching1 = userRatingFilm1;
-personalMovieDB.movies.nameLastFilmWatching2 = userRatingFilm2;
+
+personalMovieDB.movies[nameLastFilmWatching1] = userRatingFilm1;
+personalMovieDB.movies[nameLastFilmWatching2] = userRatingFilm2;
 
 
-console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
 
