@@ -28,10 +28,9 @@ const userRatingFilm2 = +prompt('На сколько оцените его?', ''
 //     answerFilm2: nameLastFilmWatching2,
 //     answerRatingfilm2: userRatingFilm2
 // };
-personalMovieDB.movies.answerFilm1 = nameLastFilmWatching1;
-personalMovieDB.movies.answerRatingFilm1 = userRatingFilm1;
-personalMovieDB.movies.answerFilm2 = nameLastFilmWatching2;
-personalMovieDB.movies.answerRatingFilm2 = userRatingFilm2;
+personalMovieDB.movies.nameLastFilmWatching1 = userRatingFilm1;
+personalMovieDB.movies.nameLastFilmWatching2 = userRatingFilm2;
+
 
 console.log(personalMovieDB.movies);
 
